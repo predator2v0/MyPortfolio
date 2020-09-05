@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Kreon', serif;
+}
+body{
+	background-color: #252627;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: auto;
+	background-color: #181818;
+}
+.navbar-brand{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	color: #707070 !important;
+}
+.navbar-brand:hover{
+	color: #ed5565 !important;
+}
+.nav-link{
+	text-transform: capitalize;
+	color: #707070 !important;
+}
+.nav-link:hover{
+	color: #ed5565 !important;
+}
+.main-section-holder{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background-color: #252627;
+}
+.info-holder{
+	margin-top: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+	color: #fff;
+}
+.info-text{
+	width: auto;
+	display: block;
+	padding: 10% 0 0 10px;
+}
+.info-text p{
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.info-text p span{
+	font-size: 16px;
+	font-weight: 50;
+	width: 40px;
+}
+.info-text p span a{ 
+	color: #ed5565;
+	text-decoration: none;
+	letter-spacing: 2px;
+	border: 2px solid #ed5565;
+	padding: 12px 25px;
+}
+.info-text p:hover{
+	color: #ed5565;
+}
+.info-text p span a:hover{
+	border: 2px solid #fff;
+	color: #fff;
+	background-color: #ed5565;
+	transition: 0.6s;
+}
+.info-img img{
+	width: 400px;
+	height: auto;
+}
+.about{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.about-section-heading{
+	color: #707070;
+	font-size: 7em;
+	text-transform: capitalize;
+	margin: 10px 20px 0;
+	font-family: 'Poppins', sans-serif;
+}
+.about-content-holder{
+	display: flex;
+	justify-content: center;
+	-webkit-box-shadow: 7px 7px 21px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 21px 11px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 21px 11px rgba(0,0,0,0.75);
+}
+.about-content{
+	width: 85%;
+}
+.about-content-holder p{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+.skills{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.skills-section-heading{
+	color: #707070;
+	font-size: 7em;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 10px 20px 0;
+	font-family: 'Poppins', sans-serif;
+}
+.skills-content{
+	width: 100%;
+	height: auto;
+	padding: 20px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.skill-progress-container{
+	width: 250px;
+	height: 350px;
+	/* border: 1px solid white; */
+	border-radius: 5px;
+}
+.skill-progress-container:hover{
+	-webkit-box-shadow: -4px -9px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px -9px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: -4px -9px 38px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+.skill-progress-container svg circle{
+	stroke-dasharray: 630;
+	stroke-dashoffset: 630;
+	stroke-width: 10;
+	fill: none;
+}
+.html svg circle:nth-child(1),.css svg circle:nth-child(1),.js svg circle:nth-child(1),.php svg circle:nth-child(1){
+	stroke-dashoffset: 0;
+	stroke: #636466;
+}
+.html svg circle:nth-child(2){
+	stroke-dashoffset: calc(630 - (630 * 77) / 100);
+    stroke: #32d923;
+    stroke-linecap: round;
+}
+.css svg circle:nth-child(2){
+	stroke-dashoffset: calc(630 - (630 * 71) / 100);
+    stroke: #03a2ff;
+    stroke-linecap: round;
+}
+.js svg circle:nth-child(2){
+	stroke-dashoffset: calc(630 - (630 * 65) / 100);
+    stroke: #d1f520;
+    stroke-linecap: round;
+}
+.php svg circle:nth-child(2){
+	stroke-dashoffset: calc(630 - (630 * 59) / 100);
+    stroke: #5467b6;
+    stroke-linecap: round;
+}
+.skill-progress-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.skill-progress-text p{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+}
+.contact{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.contact-section-heading{
+	color: #707070;
+	font-size: 7em;
+	text-transform: capitalize;
+	text-align: right;
+	margin: 10px 20px 0;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-option{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/* border: 1px solid red; */
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	color: #fff;
+	box-sizing: border-box;
+}
+.address-info{
+	width: 40%;
+	height: auto;
+	/* border: 1px solid yellow; */
+	font-size: 22px;
+}
+.location,.call,.pmail,.smail{
+	display: flex;
+	flex-wrap: wrap;
+}
+.address-info i{
+	margin-right: 30px;
+	padding-top: 5px;
+}
+.address-info i:hover{
+	color: #ed5565;
+}
+.address-info a{
+	text-decoration: none;
+	color: #fff;
+}
+.address-info a:hover,.address-info p:hover{
+	color: #ed5565;
+}
+.contact-info{
+	width: 30%;
+	height: auto;
+	/* border: 1px solid white; */
+	font-size: 22px;
+	box-sizing: border-box;
+}
+.social{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.social a{
+	color: #fff;
+	text-decoration: none;
+}
+.social a:hover{
+	color: #ed5565;
+}
+.github,.linkedin,.hackerrank,.stackoverflow{
+	display: flex;
+	flex-wrap: wrap;
+}
+.github i,.linkedin i,.hackerrank i,.stackoverflow i{
+	margin-right: 30px;
+	padding-top: 5px;
+}.github i:hover,.linkedin i:hover,.hackerrank i:hover,.stackoverflow i:hover{
+	color: #ed5565;
+}
+.github a,.linkedin a,.hackerrank a,.stackoverflow a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+}
+.github a:hover,.linkedin a:hover,.hackerrank a:hover,.stackoverflow a:hover{
+	color: #ed5565;
+}
+.footer{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 18px;
+	flex-wrap: wrap;
+	background-color: #181818;
+	padding-top: 10px;
+}
+.footer:hover{
+	color: #ed5565;
+}
+/* media Querry starts  */
+@media (max-width:500px){
+	.about-section-heading,.skills-section-heading{
+		font-size: 62px;
+	}
+	.contact-section-heading{
+		font-size: 60px;
+	}
+	.info-img{
+		justify-content: center;
+	}
+	.info-img img{
+		width: 300px;
+		height: auto;
+	}
+	.contact-option{
+		padding-left: 0;
+	}
+}
+/* font-family: 'Kreon', serif; 
+#32d923
+#03a2ff
+#d1f520
+#a823d9
+#eb2626
+#5467b6
+#6a89cc
+#82ccdd
+#60a3bc
+#4a69bd*/
