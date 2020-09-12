@@ -1,4 +1,4 @@
-# My Portfoliio
+# My Portfolio
 [click here to visit site](https://predator2v0.github.io/myportfolio/)
 
 ---
