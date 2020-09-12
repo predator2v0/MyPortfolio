@@ -1,5 +1,5 @@
 # My Portfoliio
-[click here to visit site] (https://predator2v0.github.io/myportfolio/)
+[click here to visit site](https://predator2v0.github.io/myportfolio/)
 
 ---
 the complete `source code` with additional resources are here on this repo.
